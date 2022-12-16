@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(168, 168, 228);
+}
+.the{
+    margin: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    
+}
+.one{
+    display: flex;
+}
+.one1{
+    font-size: 15px;
+    margin-left: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.two{
+    text-align: center;
+    font-size: 30px;
+}
+.two:hover{
+    font-size: 50px;
+}
+.main{
+    text-align: center;
+    border: 5px solid black;
+    padding: 10px;
+    background-image: linear-gradient(
+        pink,
+        lightblue,
+        pink
+    );
+    border-radius: 10px;
+}
+.three{
+    display: flex;
+    justify-content: space-around;
+    animation: gift 5px linear infinite;
+}
+.copy{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+span{
+    border: 0.5px solid black;
+    border-radius: 50%;
+}
+@media (414px <= width <= 896px){
+    .the{
+        display: block;
+        font-size: 25px;
+    }
+    .one{
+        display: none;
+    }.three{
+        display: block;
+    }
+}
